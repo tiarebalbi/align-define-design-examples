@@ -459,7 +459,7 @@ Use the following design style guidelines when designing the API:
     * Sorting must be indicated via sort. Example: GET /v1/orders?offset=20&limit=10&sort=createdDate
     * Retrieves 10 orders starting from the 21st record, sorted by createdDate.
 9. Error Handling & Problem Details:
-    * Use RFC 9453 Problem Details (formerly RC 7807) format for error responses.
+    * Use RFC 9457 Problem Details (formerly RC 7807) format for error responses.
 
 Repeat your understanding of this design style guide first, then I will let you know if we are aligned and ready to generate the API designs based on our Define artifacts.
 ```
